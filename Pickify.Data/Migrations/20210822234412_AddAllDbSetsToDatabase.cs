@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace Pickify.Migrations
+namespace Pickify.Data.Migrations
 {
     public partial class AddAllDbSetsToDatabase : Migration
     {

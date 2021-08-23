@@ -1,0 +1,83 @@
+[
+
+  {
+    "id": "08eb9484-dd73-4f92-b896-09915a78ad8a",
+    "CompanyName": "Beer, Mertz and Ankunding",
+    "ContactFirstName": "Niko",
+    "ContactLastName": "Livard",
+    "ContactTitle": "Dr",
+    "Phone": "299-333-6926",
+    "Address": {
+      "id": "4bbf76fc-60fa-42fe-80e7-4ec09d6635b2",
+      "HouseNumber": "9796",
+      "Street": "Birchwood",
+      "City": "Monticello",
+      "State": "Minnesota",
+      "PostalCode": "55565"
+    }
+  },
+  {
+    "id": "89b96ae9-a29d-430c-b04c-7ac1546c4925",
+    "CompanyName": "Carroll LLC",
+    "ContactFirstName": "Mikol",
+    "ContactLastName": "Dorn",
+    "ContactTitle": "Dr",
+    "Phone": "236-943-3007",
+    "Address": {
+      "id": "b5d08163-4a52-4414-9622-f98fff90a35f",
+      "HouseNumber": "2",
+      "Street": "Knutson",
+      "City": "Nashville",
+      "State": "Tennessee",
+      "PostalCode": "37240"
+    }
+  },
+  {
+    "id": "43dcb4c1-67cd-4741-90f6-2c3d95f75d06",
+    "CompanyName": "Wolff, Collins and Swift",
+    "ContactFirstName": "Hasty",
+    "ContactLastName": "Hebbs",
+    "ContactTitle": "Mr",
+    "Phone": "567-138-0230",
+    "Address": {
+      "id": "f606f318-2eb2-4acd-93cd-9c734e186cfa",
+      "HouseNumber": "8",
+      "Street": "South",
+      "City": "Charlottesville",
+      "State": "Virginia",
+      "PostalCode": "22903"
+    }
+  },
+  {
+    "id": "37ce2d88-e0d2-4cdd-87fd-ec902bfce126",
+    "CompanyName": "West-Hane",
+    "ContactFirstName": "Lynnelle",
+    "ContactLastName": "Kilshaw",
+    "ContactTitle": "Honorable",
+    "Phone": "874-306-5181",
+    "Address": {
+      "id": "1ad002d1-d200-4726-aa16-01e3f608bdf4",
+      "HouseNumber": "47299",
+      "Street": "Tomscot",
+      "City": "Oklahoma City",
+      "State": "Oklahoma",
+      "PostalCode": "73124"
+    }
+  },
+  {
+    "id": "d83e32ee-0e5b-4ff4-ae17-50936d389e6b",
+    "CompanyName": "Champlin, Simonis and Ratke",
+    "ContactFirstName": "Guenna",
+    "ContactLastName": "Edmondson",
+    "ContactTitle": "Dr",
+    "Phone": "626-115-5908",
+    "Address": {
+      "id": "ae366edf-3bd0-40dc-afce-eb78e2fd3fbc",
+      "HouseNumber": "41",
+      "Street": "Meadow Valley",
+      "City": "South Bend",
+      "State": "Indiana",
+      "PostalCode": "46699"
+    }
+  }
+]

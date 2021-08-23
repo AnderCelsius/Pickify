@@ -1,0 +1,26 @@
+[
+  {
+    "id": "a71a6ae8-a4b3-4e67-b749-5760be7498af",
+    "CategoryName": "men's clothing",
+    "Description": "Fusion Lumsac Jt w Autol Sub, Post Appr P Col, Perc Endo",
+    "Active": true
+  },
+  {
+    "id": "eaf0cb51-df5e-4d5c-9434-487e2efb1533",
+    "CategoryName": "jewelry",
+    "Description": "Revise Synth Sub in L Metacarpocarp Jt, Perc Endo",
+    "Active": true
+  },
+  {
+    "id": "a40a0480-67ee-4346-bcc5-6b1af326a581",
+    "CategoryName": "electronics",
+    "Description": "Repair Right Thyroid Artery, Perc Endo Approach",
+    "Active": true
+  },
+  {
+    "id": "3db100ef-7935-4227-a59a-eaaf20a5489f",
+    "CategoryName": "women's clothing",
+    "Description": "Reposition Cervical Plexus, Percutaneous Approach",
+    "Active": true
+  }
+]
