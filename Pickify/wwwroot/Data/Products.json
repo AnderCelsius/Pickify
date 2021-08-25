@@ -1,0 +1,379 @@
+[
+  {
+    "Id": "98664e78-2430-45bb-aa6c-1243f5c642e5",
+    "ProductName": "7 Shakra Bracelet",
+    "UnitPrice": 42.99,
+    "UnitWeight": 1.5,
+    "Description": "7 chakra bracelet, in blue or black.",
+    "CategoryId": "a71a6ae8-a4b3-4e67-b749-5760be7498af",
+    "QuantityPerUnit": 1,
+    "QuantityInStock": 6,
+    "SupplierId": "08eb9484-dd73-4f92-b896-09915a78ad8a",
+    "ProductImages": [
+      {
+        "Id": "8729b387-5ed2-416d-9209-2bd0ae2d6064",
+        "URL": "https://burst.shopifycdn.com/photos/7-chakra-bracelet_925x.jpg"
+      },
+      {
+        "Id": "5fdd90fc-a20f-4b8e-aaae-4b2209710013",
+        "URL": "https://burst.shopifycdn.com/photos/navy-blue-chakra-bracelet_925x.jpg"
+      }
+    ]
+  },
+  {
+    "Id": "6d168e54-2ecb-4216-8c6e-1d691aad75c9",
+    "ProductName": "Anchor Bracelet Mens",
+    "UnitPrice": 69.99,
+    "UnitWeight": 0.5,
+    "Description": "Black leather bracelet with gold or silver anchor for men.",
+    "CategoryId": "a71a6ae8-a4b3-4e67-b749-5760be7498af",
+    "QuantityPerUnit": 1,
+    "QuantityInStock": 13,
+    "SupplierId": "08eb9484-dd73-4f92-b896-09915a78ad8a",
+    "ProductImages": [
+      {
+        "Id": "9d4d5601-133a-4cd6-b884-692a0a47ba02",
+        "URL": "https://burst.shopifycdn.com/photos/anchor-bracelet-mens_925x.jpg"
+      },
+      {
+        "Id": "ee7dc859-2749-41b5-a08e-4d2ddebc646b",
+        "URL": "https://burst.shopifycdn.com/photos/anchor-bracelet-for-men_925x.jpg"
+      },
+      {
+        "Id": "d0eac8b3-f554-4d50-85a4-d2c28af1e064",
+        "URL": "https://burst.shopifycdn.com/photos/leather-anchor-bracelet-for-men_925x.jpg"
+      }
+    ]
+  },
+  {
+    "Id": "90535ae5-14e0-4fdd-9dd8-f8e2f76be710",
+    "ProductName": "Bangle Bracelet",
+    "UnitPrice": 39.99,
+    "UnitWeight": 1.0,
+    "Description": "Gold bangle bracelet with studded jewels.",
+    "CategoryId": "a71a6ae8-a4b3-4e67-b749-5760be7498af",
+    "QuantityPerUnit": 1,
+    "QuantityInStock": 12,
+    "SupplierId": "37ce2d88-e0d2-4cdd-87fd-ec902bfce126",
+    "ProductImages": [
+      {
+        "Id": "1ad78d97-4cd7-4eaa-ba83-5742dbf9b909",
+        "URL": "https://burst.shopifycdn.com/photos/bangle-bracelet-with-jewels_925x.jpg"
+      }
+    ]
+  },
+  {
+    "Id": "b85bf8d6-c39a-4121-8e32-04f9021a68ce",
+    "ProductName": "Boho Bangle Bracelet",
+    "UnitPrice": 42.99,
+    "UnitWeight": 0.35,
+    "Description": "Gold boho bangle bracelet with multicolor tassels.",
+    "CategoryId": "a71a6ae8-a4b3-4e67-b749-5760be7498af",
+    "QuantityPerUnit": 1,
+    "QuantityInStock": 18,
+    "SupplierId": "43dcb4c1-67cd-4741-90f6-2c3d95f75d06",
+    "ProductImages": [
+      {
+        "Id": "55b18cb6-7b0f-49a9-b23b-2ddd9551458e",
+        "URL": "https://burst.shopifycdn.com/photos/bangle-bracelet-with-feathers_925x.jpg"
+      },
+      {
+        "Id": "a8458189-f2eb-4769-a4d2-f95c1f82e007",
+        "URL": "https://burst.shopifycdn.com/photos/bangle-bracelet-with-feathers_925x.jpg"
+      }
+    ]
+
+  },
+  {
+    "Id": "5682363f-83b7-482b-8ed6-a78aef266d9e",
+    "ProductName": "Boho Earrings",
+    "UnitPrice": 27.99,
+    "UnitWeight": 1,
+    "Description": "Turquoise globe earrings on 14k gold hooks.",
+    "CategoryId": "a71a6ae8-a4b3-4e67-b749-5760be7498af",
+    "QuantityPerUnit": 1,
+    "QuantityInStock": 25,
+    "SupplierId": "89b96ae9-a29d-430c-b04c-7ac1546c4925",
+    "ProductImages": [
+      {
+        "Id": "72a12a91-6336-4ffb-9ca0-6590c076e02a",
+        "URL": "https://burst.shopifycdn.com/photos/boho-earrings_925x.jpg"
+      },
+      {
+        "Id": "36b3ea65-1d98-4a53-b698-d019855e5bbe",
+        "URL": "https://burst.shopifycdn.com/photos/inspired-woman_925x.jpg"
+      },
+      {
+        "Id": "d44fd0cc-12cb-498a-97ab-3a4b6be049e1",
+        "URL": "https://burst.shopifycdn.com/photos/necklace-earrings-set_925x.jpg"
+      }
+    ]
+  },
+  {
+    "Id": "7c04a2fc-32d9-4a76-b02e-a289670e530c",
+    "ProductName": "Choker with Bead",
+    "UnitPrice": 14.99,
+    "UnitWeight": 1.5,
+    "Description": "Black choker necklace with 14k gold bead.",
+    "CategoryId": "a71a6ae8-a4b3-4e67-b749-5760be7498af",
+    "QuantityPerUnit": 1,
+    "QuantityInStock": 20,
+    "SupplierId": "89b96ae9-a29d-430c-b04c-7ac1546c4925",
+    "ProductImages": [
+      {
+        "Id": "0ef41b81-1a87-4f50-bb68-d010c56afd73",
+        "URL": "https://burst.shopifycdn.com/photos/black-choker-with-bead_925x.jpg"
+      },
+      {
+        "Id": "6f50e5e6-df11-483d-93a5-784df853eab5",
+        "URL": "https://burst.shopifycdn.com/photos/choker-with-bead_925x.jpg"
+      }
+    ]
+  },
+  {
+    "Id": "01767042-4cfa-4a2d-b308-de898d7732c9",
+    "ProductName": "Choker with Gold Pendant",
+    "UnitPrice": 29.99,
+    "UnitWeight": 2.5,
+    "Description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
+    "CategoryId": "a71a6ae8-a4b3-4e67-b749-5760be7498af",
+    "QuantityPerUnit": 2,
+    "QuantityInStock": 17,
+    "SupplierId": "89b96ae9-a29d-430c-b04c-7ac1546c4925",
+    "ProductImages": [
+      {
+        "Id": "058b14a7-4376-4fe3-b8bd-452a418a9e62",
+        "URL": "https://burst.shopifycdn.com/photos/choker-with-gold-pendant_925x.jpg"
+      },
+      {
+        "Id": "51d3c85a-c299-4aef-9485-9bb71c51fbc2",
+        "URL": "https://burst.shopifycdn.com/photos/choker-pendant-closeup_925x.jpg"
+      }
+    ]
+  },
+  {
+    "Id": "cf6d0a3b-b820-4f59-a139-358fa82720af",
+    "ProductName": "Ocean Blue Shirt",
+    "UnitPrice": 50,
+    "UnitWeight": 0.5,
+    "Description": "Ocean blue cotton shirt with a narrow collar and buttons down the front and long sleeves. Comfortable fit and tiled kalidoscope patterns.",
+    "CategoryId": "eaf0cb51-df5e-4d5c-9434-487e2efb1533",
+    "QuantityPerUnit": 1,
+    "QuantityInStock": 25,
+    "SupplierId": "37ce2d88-e0d2-4cdd-87fd-ec902bfce126",
+    "ProductImages": [
+      {
+        "Id": "42f644fc-2cec-4b08-817d-5156fa28e79e",
+        "URL": "https://burst.shopifycdn.com/photos/young-man-in-bright-fashion_925x.jpg"
+      }
+    ]
+  },
+  {
+    "Id": "0da19ecf-7e8f-41c8-b4c0-ed841582bc2f",
+    "ProductName": "Classic Varsity Top",
+    "UnitPrice": 60,
+    "UnitWeight": 1.5,
+    "Description": "Womens casual varsity top, This grey and black buttoned top is a sport-inspired piece complete with an embroidered letter.",
+    "CategoryId": "a40a0480-67ee-4346-bcc5-6b1af326a581",
+    "QuantityPerUnit": 2,
+    "QuantityInStock": 30,
+    "SupplierId": "89b96ae9-a29d-430c-b04c-7ac1546c4925",
+    "ProductImages": [
+      {
+        "Id": "dd52b197-59e3-42a7-b9fa-5cbeedff0123",
+        "URL": "https://burst.shopifycdn.com/photos/casual-fashion-woman_925x.jpg"
+      }
+    ]
+  },
+  {
+    "Id": "48be2b98-9614-4609-9c6e-f1e4f866a20e",
+    "ProductName": "Yellow Wool Jumper",
+    "UnitPrice": 80,
+    "UnitWeight": 0.5,
+    "Description": "Knitted jumper in a soft wool blend with low dropped shoulders and wide sleeves and think cuffs. Perfect for keeping warm during Fall.",
+    "CategoryId": "a40a0480-67ee-4346-bcc5-6b1af326a581",
+    "QuantityPerUnit": 1,
+    "QuantityInStock": 19,
+    "SupplierId": "f606f318-2eb2-4acd-93cd-9c734e186cfa",
+    "ProductImages": [
+      {
+        "Id": "33629f76-974f-4eab-a0c5-43b1de76232c",
+        "URL": "https://burst.shopifycdn.com/photos/autumn-photographer-taking-picture_925x.jpg"
+      }
+    ]
+  },
+  {
+    "Id": "486df462-094a-444c-9e73-63d297f484a7",
+    "ProductName": "Floral White Top",
+    "UnitPrice": 75,
+    "UnitWeight": 10,
+    "Description": "Stylish sleeveless white top with a floral pattern.",
+    "CategoryId": "a40a0480-67ee-4346-bcc5-6b1af326a581",
+    "QuantityPerUnit": 1,
+    "QuantityInStock": 23,
+    "SupplierId": "08eb9484-dd73-4f92-b896-09915a78ad8a",
+    "ProductImages": [
+      {
+        "Id": "c3c12521-6786-49d5-9672-554b87d9c5ed",
+        "URL": "https://burst.shopifycdn.com/photos/city-woman-fashion_925x@2x.jpg"
+      }
+    ]
+  },
+  {
+    "Id": "43b05a2d-6e30-40e7-b37a-15c780813cd0",
+    "ProductName": "Classic Leather Jacket",
+    "UnitPrice": 80,
+    "UnitWeight": 10,
+    "Description": "Womans zipped leather jacket. Adjustable belt for a comfortable fit, complete with shoulder pads and front zip pocket.",
+    "CategoryId": "a40a0480-67ee-4346-bcc5-6b1af326a581",
+    "QuantityPerUnit": 1,
+    "QuantityInStock": 25,
+    "SupplierId": "08eb9484-dd73-4f92-b896-09915a78ad8a",
+    "ProductImages": [
+      {
+        "Id": "923fca97-b7c4-4af1-b5f7-d1781cd51237",
+        "URL": "https://burst.shopifycdn.com/photos/leather-jacket-and-tea_925x.jpg"
+      }
+    ]
+  },
+  {
+    "Id": "03f0265d-7efc-4e03-9830-ce6b057a828b",
+    "ProductName": "Dark Denim Top",
+    "UnitPrice": 60,
+    "UnitWeight": 1.5,
+    "Description": "Classic dark denim top with chest pockets, long sleeves with buttoned cuffs, and a ripped hem effect.",
+    "CategoryId": "a40a0480-67ee-4346-bcc5-6b1af326a581",
+    "QuantityPerUnit": 1,
+    "QuantityInStock": 6,
+    "SupplierId": "08eb9484-dd73-4f92-b896-09915a78ad8a",
+    "ProductImages": [
+      {
+        "Id": "b72aaf21-fbf8-4130-9fa1-7bb0b3a2e257",
+        "URL": "https://burst.shopifycdn.com/photos/young-female-models-denim_925x.jpg"
+      }
+    ]
+  },
+  {
+    "Id": "c8441359-faba-4a1a-b306-e37bd9796b0a",
+    "ProductName": "Striped Silk Blouse",
+    "UnitPrice": 80,
+    "UnitWeight": 1.5,
+    "Description": "Ultra-stylish black and red striped silk blouse with buckle collar and matching button pants.",
+    "CategoryId": "a40a0480-67ee-4346-bcc5-6b1af326a581",
+    "QuantityPerUnit": 1,
+    "QuantityInStock": 13,
+    "SupplierId": "08eb9484-dd73-4f92-b896-09915a78ad8a",
+    "ProductImages": [
+      {
+        "Id": "e3679d09-561e-49da-a779-67da417b4835",
+        "URL": "https://burst.shopifycdn.com/photos/striped-blouse-fashion_925x.jpg"
+      }
+    ]
+  },
+  {
+    "Id": "ce1c71cb-90d2-475d-bc83-8db7bcf346e9",
+    "ProductName": "Red Sports Tee",
+    "UnitPrice": 50,
+    "UnitWeight": 1.5,
+    "Description":"Women's red sporty t-shirt with colorful details on the sleeves and a small white pocket.",
+    "CategoryId": "a40a0480-67ee-4346-bcc5-6b1af326a581",
+    "QuantityPerUnit": 3,
+    "QuantityInStock": 25,
+    "SupplierId": "89b96ae9-a29d-430c-b04c-7ac1546c4925",
+    "ProductImages": [
+      {
+        "Id": "589209bb-ac70-4e67-bbea-98f38bd6ce91",
+        "URL": "https://burst.shopifycdn.com/photos/womens-red-t-shirt_925x.jpg"  
+      }
+    ]
+  },
+  {
+    "Id": "e4700597-c35a-4388-bfb2-4519c2807b92",
+    "ProductName": "Navy Sports Jacket",
+    "UnitPrice": 60,
+    "UnitWeight": 0.5,
+    "Description": "Long-sleeved navy waterproof jacket in thin, polyester fabric with a soft mesh inside. The durable water-repellent finish means you'll be kept comfortable and protected when out in all weathers.",
+    "CategoryId": "3db100ef-7935-4227-a59a-eaaf20a5489f",
+    "QuantityPerUnit": 1,
+    "QuantityInStock": 2,
+    "SupplierId": "d83e32ee-0e5b-4ff4-ae17-50936d389e6b",
+    "ProductImages": [
+      {
+        "Id": "d8c0fe16-08ab-4b67-8ea1-5aa20f58d1be",
+        "URL": "https://burst.shopifycdn.com/photos/mens-fall-fashion-jacket_925x.jpg"
+      }
+    ]
+  },
+  {
+    "Id": "010a8202-f50f-4b54-a22c-8b16c61861a2",
+    "ProductName": "Zipped Jacket",
+    "UnitPrice": 65,
+    "UnitWeight": 1.3,
+    "Description": "Dark navy and light blue men's zipped waterproof jacket with an outer zipped chestpocket for easy storeage.",
+    "CategoryId": "3db100ef-7935-4227-a59a-eaaf20a5489f",
+    "QuantityPerUnit": 2,
+    "QuantityInStock": 3,
+    "SupplierId": "37ce2d88-e0d2-4cdd-87fd-ec902bfce126",
+    "ProductImagess": [
+      {
+        "Id": "281b31bb-af18-414b-8562-640cecd4cb3b",
+        "URL": "https://theyutes.com/wp-content/uploads/2021/01/aa17455e4426c215489f95c094a31cd6-scaled-600x750.jpeg"
+      },
+      {
+        "Id": "68d13a67-7d76-46c5-af46-578347f2d317",
+        "URL": "https://burst.shopifycdn.com/photos/menswear-blue-zip-up-jacket_925x.jpg"
+      }
+    ]
+  },
+  {
+    "Id": "9e529940-de1d-4c74-a15b-761a9bee8975",
+    "ProductName": "Chequered Red Shirt",
+    "UnitPrice": 50,
+    "UnitWeight": 0.2,
+    "Description": "Classic mens plaid flannel shirt with long sleeves, in chequered style, with two chest pockets.",
+    "CategoryId": "3db100ef-7935-4227-a59a-eaaf20a5489f",
+    "QuantityPerUnit": 1,
+    "QuantityInStock": 5,
+    "SupplierId": "37ce2d88-e0d2-4cdd-87fd-ec902bfce126",
+    "ProductImagess": [
+      {
+        "Id": "20e40509-9d71-4f9f-901a-11b12fca5094",
+        "URL": "https://burst.shopifycdn.com/photos/red-plaid-shirt_925x.jpg"
+      }
+    ]
+  },
+  {
+    "Id": "27cb93a5-3893-40e3-a61d-86b603f4a467",
+    "ProductName": "Blue Silk Tuxedo",
+    "UnitPrice": 70,
+    "UnitWeight": 1.5,
+    "Description": "Blue silk tuxedo with marbled aquatic pattern and dark lining. Sleeves are complete with rounded hem and black buttons.",
+    "CategoryId": "3db100ef-7935-4227-a59a-eaaf20a5489f",
+    "QuantityPerUnit": 3,
+    "QuantityInStock": 3,
+    "SupplierId": "37ce2d88-e0d2-4cdd-87fd-ec902bfce126",
+    "ProductImages": [
+      {
+        "Id": "416fbeef-8bc0-46b9-8fba-4076d6bb2a27",
+        "URL": "https://burst.shopifycdn.com/photos/man-adjusts-blue-tuxedo-bowtie_925x.jpg"
+      }
+    ]
+  },
+  {
+    "Id": "e1f70923-662c-444f-af98-58c7086e11e7",
+    "ProductName": "LED High Tops",
+    "UnitPrice": 80,
+    "UnitWeight": 2.5,
+    "Description": "Black high top shoes with green LED lights in the sole, tied up with laces and a buckle.",
+    "CategoryId": "3db100ef-7935-4227-a59a-eaaf20a5489f",
+    "QuantityPerUnit": 1,
+    "QuantityInStock": 7,
+    "SupplierId": "37ce2d88-e0d2-4cdd-87fd-ec902bfce126",
+    "ProductImages": [
+      {
+        "Id": "99108f9e-ec0a-43d2-a443-46106a0371d0",
+        "URL": "https://burst.shopifycdn.com/photos/putting-on-your-shoes_925x.jpg"
+      }
+    ]
+  }
+]

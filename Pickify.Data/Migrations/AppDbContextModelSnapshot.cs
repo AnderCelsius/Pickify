@@ -237,11 +237,14 @@ namespace Pickify.Data.Migrations
                     b.Property<string>("ProductId")
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("URL")
+                        .HasColumnType("TEXT");
+
                     b.HasKey("Id");
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("ProductImage");
+                    b.ToTable("ProductImages");
                 });
 
             modelBuilder.Entity("Pickify.Models.Shipper", b =>
@@ -357,7 +360,7 @@ namespace Pickify.Data.Migrations
             modelBuilder.Entity("Pickify.Models.ProductImage", b =>
                 {
                     b.HasOne("Pickify.Models.Product", "Product")
-                        .WithMany("productImages")
+                        .WithMany("ProductImages")
                         .HasForeignKey("ProductId");
 
                     b.Navigation("Product");
@@ -398,7 +401,7 @@ namespace Pickify.Data.Migrations
                 {
                     b.Navigation("OrderDetails");
 
-                    b.Navigation("productImages");
+                    b.Navigation("ProductImages");
                 });
 
             modelBuilder.Entity("Pickify.Models.Shipper", b =>

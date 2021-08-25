@@ -25,6 +25,6 @@ namespace Pickify.Models
         public int QuantityPerUnit { get; set; }
         public int QuantityInStock { get; set; }
         public ICollection<OrderDetails> OrderDetails { get; set; }
-        public ICollection<ProductImage> productImages { get; set; }
+        public ICollection<ProductImage> ProductImages { get; set; }
     }
 }

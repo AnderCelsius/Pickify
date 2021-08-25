@@ -7,6 +7,26 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\Data\Categories.json" />
+    <Content Remove="wwwroot\Data\Customers.json" />
+    <Content Remove="wwwroot\Data\OrderDetails.json" />
+    <Content Remove="wwwroot\Data\Orders.json" />
+    <Content Remove="wwwroot\Data\Products.json" />
+    <Content Remove="wwwroot\Data\Shippers.json" />
+    <Content Remove="wwwroot\Data\Suppliers.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Data\Categories.json" />
+    <None Include="wwwroot\Data\Customers.json" />
+    <None Include="wwwroot\Data\OrderDetails.json" />
+    <None Include="wwwroot\Data\Orders.json" />
+    <None Include="wwwroot\Data\Products.json" />
+    <None Include="wwwroot\Data\Shippers.json" />
+    <None Include="wwwroot\Data\Suppliers.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.7" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.9">
       <PrivateAssets>all</PrivateAssets>
@@ -14,9 +34,11 @@
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.14" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Pickify.Core\Pickify.Core.csproj" />
     <ProjectReference Include="..\Pickify.Data\Pickify.Data.csproj" />
   </ItemGroup>
 
