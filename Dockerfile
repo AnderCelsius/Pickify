@@ -32,9 +32,9 @@ RUN dotnet publish -c Release -o /src/publish
 FROM mcr.microsoft.com/dotnet/aspnet:5.0 AS runtime
 WORKDIR /app
 COPY --from=publish /src/publish .
-COPY --from=publish /src/Pickify.wwwroot/Data/* /Data/
-#ENTRYPOINT ["dotnet", "Pickify.dll"]
-CMD ASPNETCORE_URLS=http://*:$PORT dotnet Pickify.dll
+COPY --from=publish /src/Pickify/wwwroot/Data/* /Data/
+ENTRYPOINT ["dotnet", "Pickify.dll"]
+#CMD ASPNETCORE_URLS=http://*:$PORT dotnet Pickify.dll
     
     
  
