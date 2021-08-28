@@ -18,11 +18,11 @@
     {
     <div class="col-md-4 mb-4">
         <div class="card">
-            <img class="img-top" src="@Url.Content(product.ProductImages.Select(x=>x.URL).FirstOrDefault())" style="height:350px; width: auto; object-fit:cover" alt="@product.Description"/>
+            <img class="img-top" src="@Url.Content(product.ProductImages.Select(x=>x.URL).FirstOrDefault())" style="height:250px; width: auto; object-fit:cover" alt="@product.Description"/>
             <div class="card-body">
                 <h5 class="card-title">@product.ProductName</h5>
-                <p class="card-text"><span>₦</span>@product.UnitPrice</p>
-                <a asp-controller="Product" asp-route-Id="@product.Description" asp-action="ProductDetail" class="btn-primary btn" style="background-color: #0d6efd">View Product</a>
+                <p class="card-text"><span>$</span>@product.UnitPrice</p>
+                <a asp-controller="Product" asp-route-Id="@product.Id" asp-action="Detail" class="btn-primary btn" style="background-color: #0d6efd">View Product</a>
             </div>
         </div>
     </div>

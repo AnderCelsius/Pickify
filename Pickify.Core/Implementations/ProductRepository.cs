@@ -21,7 +21,7 @@ namespace Pickify.Core.Implementations
 
         public Product GetAProduct(string id)
         {
-            return context.Products.ToList()
+            return context.Products.Include(p=>p.ProductImages).ToList()
                 .SingleOrDefault(p => p.Id == id);
         }
 

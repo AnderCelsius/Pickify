@@ -23,7 +23,8 @@ namespace Pickify.Controllers
             return View(product);
         }
 
-        public IActionResult ProductDetail(string id)
+        [HttpGet("id")]
+        public IActionResult Detail(string id)
         {
             var details = _product.GetAProduct(id);
             return View(details);

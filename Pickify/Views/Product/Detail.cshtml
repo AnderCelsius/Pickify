@@ -1,0 +1,26 @@
+﻿@model Pickify.Models.Product
+@{
+	//ViewData["Title"] = "Detail";
+	ViewBag.Title = "Detail";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<div class="wrapper">
+	<div class="product-img">
+		<img src="@Url.Content(@Model.ProductImages.Select(x=>x.URL).FirstOrDefault())">
+	</div>
+	<div class="product-info">
+		<div class="product-text">
+			<h1>Harvest Vase</h1>
+			<h2>by studio and friends</h2>
+			<p>Harvest Vases are a reinterpretation<br> of peeled fruits and vegetables as<br> functional objects. The surfaces<br> appear to be sliced and pulled aside,<br> allowing room for growth. </p>
+		</div>
+		<div class="product-price-btn">
+			<p><span>@Model.UnitPrice</span>$</p>
+			<button type="button">Back</button>
+		</div>
+	</div>
+</div>
+

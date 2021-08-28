@@ -1,165 +1,290 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
-    Layout = "_Layout";
+	ViewData["Title"] = "Home Page";
+	Layout = "_Layout";
 
 }
 
 
-<section>
-    <div class="mt-5 mb-4">
-        <p>                 .    </p>
-    </div>
-</section>
-<section id="one" class="mt-5 pt-2 mb-5">
-    <div class="row mb-4">
-        <div class="banner col-lg-4 my-5 py-5" style="flex-basis: 50%; min-width: 300px">
-            <h1>Give your look a new style</h1>
-            <p>We know what it means to stand out!<br />It doesn't matter when you walk in. <br />With us, your style is unique.</p>
-            <a class="" asp-area="" asp-controller="Product" asp-action="Index"><img src="~/image/explore.svg" /></a>
-        </div>
-        <div class="imge col-lg-8">
-            <img src="https://images.unsplash.com/photo-1622562744540-33d13cef690f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=762&q=80" alt="...">
-        </div>
+<section id="one" class="mb-5">
+	<div class="row my-5">
+		<div class="banner col-lg-4 my-5 py-5" style="flex-basis: 50%; min-width: 300px">
+			<h1>Give your look a new style</h1>
+			<p>We know what it means to stand out!<br />It doesn't matter when you walk in. <br />With us, your style is unique.</p>
+			<a class="" asp-area="" asp-controller="Product" asp-action="Index"><img src="~/image/explore.svg" /></a>
+		</div>
+		<div class="imge col-lg-8 mb-5">
+			<img src="https://images.unsplash.com/photo-1622562744540-33d13cef690f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=762&q=80" alt="...">
+		</div>
 
-    </div>
+	</div>
 </section>
 
 
 <!-- Section: Magazine v.3 -->
-<section class="magazine-section my-5 mt-5">
+<section class="magazine-section mt-5">
 
-    <!-- Section heading -->
-    <h2 class="h1-responsive font-weight-bold text-center my-5 mt-5">Section title</h2>
-    <!-- Section description -->
-    <p class="text-center w-responsive mx-auto mb-5">
-        Duis aute irure dolor in reprehenderit in voluptate velit
-        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-        qui officia deserunt mollit id laborum.
-    </p>
+	<!-- Section heading -->
+	<h2 class="h1-responsive font-weight-bold text-center">Section title</h2>
+	<hr class="mx-auto " />
+	<!-- Section description -->
+	<p class="text-center w-responsive mx-auto mb-5">
+		Duis aute irure dolor in reprehenderit in voluptate velit
+		esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+		qui officia deserunt mollit id laborum.
+	</p>
 
-    <!-- Grid row -->
-    <div class="row">
+	<!-- Grid row -->
+	<div class="row">
 
-        <!-- Grid column -->
-        <div class="col-lg-4 col-md-12 mb-lg-0 mb-5">
+		<!-- Grid column -->
+		<div class="col-lg-4 col-md-12 mb-lg-0 mb-5">
 
-            <!-- Featured news -->
-            <div class="single-news mb-3">
+			<!-- Featured news -->
+			<div class="single-news mb-3">
 
-                <!-- Image -->
-                <div class="view overlay rounded z-depth-2 mb-4">
-                    <img class="img-fluid" src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTV8fGNsb3RoZXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Sample image">
-                    <a>
-                        <div class="mask rgba-white-slight"></div>
-                    </a>
-                </div>
+				<!-- Image -->
+				<div class="content view overlay rounded z-depth-2 mb-4">
+					<a>
+						<img class="img-fluid" src="https://images.unsplash.com/photo-1619166719123-471cee9ce91e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTV8fGNsb3RoZXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Three assorted black-crew neck shirts on grey surface">
+						<div class="content-details fadeIn-bottom">
+							<h3 class="content-title">Long sleeve tees</h3>
+							<p class="content-text"><i class="fa fa-map-marker"></i> Russia</p>
+						</div>
+					</a>
 
-                <!-- Grid row -->
-                <div class="row mb-3">
+				</div>
 
-                    <!-- Grid column -->
-                    <div class="col-12">
+				<!-- Grid row -->
+				<div class="row mb-3">
 
-                        <!-- Badge -->
-                        <a href="#!"><span class="badge pink"><i class="fas fa-camera pr-2" aria-hidden="true"></i>Adventure</span></a>
+					<!-- Grid column -->
+					<div class="col-12">
 
-                    </div>
-                    <!-- Grid column -->
+						<!-- Badge -->
+						<a href="#!"><span class="badge pink"><i class="fas fa-camera pr-2" aria-hidden="true"></i>Adventure</span></a>
 
-                </div>
-                <!-- Grid row -->
-                <!-- Title -->
-                <div class="d-flex justify-content-between">
-                    <div class="col-11 text-truncate pl-0 mb-3">
-                        <a class="font-weight-bold">This is title of the news</a>
-                    </div>
-                    <a><i class="fas fa-angle-double-right"></i></a>
-                </div>
+					</div>
+					<!-- Grid column -->
 
-            </div>
+				</div>
+				<!-- Grid row -->
+			</div>
 
 
-        </div>
-        <!-- Grid column -->
-        <!-- Grid column -->
-        <div class="col-lg-4 col-md-6 mb-md-0 mb-5">
+		</div>
+		<!-- Grid column -->
+		<!-- Grid column -->
+		<div class="col-lg-4 col-md-6 mb-md-0 mb-5">
 
-            <!-- Featured news -->
-            <div class="single-news mb-3">
+			<!-- Featured news -->
+			<div class="single-news mb-3">
 
-                <!-- Image -->
-                <div class="view overlay rounded z-depth-2 mb-4">
-                    <img class="img-fluid" src="https://images.unsplash.com/photo-1556905055-8f358a7a47b2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xvdGhlc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Sample image">
-                    <a>
-                        <div class="mask rgba-white-slight"></div>
-                    </a>
-                </div>
+				<!-- Image -->
+				<div class="content view overlay rounded z-depth-2 mb-4">
+					<a>
+						<img class="img-fluid" src="https://images.unsplash.com/photo-1523380677598-64d85d015339?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjQxfHxjbG90aGVzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Sample image">
+						<div class="content-details fadeIn-bottom">
+							<h3 class="content-title">Green Crew Neck Shirt</h3>
+							<p class="content-text"><i class="fa fa-map-marker"></i> Unisex</p>
+						</div>
+					</a>
+				</div>
 
-                <!-- Grid row -->
-                <div class="row mb-3">
+				<!-- Grid row -->
+				<div class="row mb-3">
 
-                    <!-- Grid column -->
-                    <div class="col-12">
+					<!-- Grid column -->
+					<div class="col-12">
 
-                        <!-- Badge -->
-                        <a href="#!"><span class="badge deep-orange"><i class="fas fa-plane pr-2" aria-hidden="true"></i>Travel</span></a>
+						<!-- Badge -->
+						<a href="#!"><span class="badge deep-orange"><i class="fas fa-plane pr-2" aria-hidden="true"></i>Travel</span></a>
 
-                    </div>
-                    <!-- Grid column -->
+					</div>
+					<!-- Grid column -->
 
-                </div>
-                <!-- Grid row -->
-                <!-- Title -->
-                <div class="d-flex justify-content-between">
-                    <div class="col-11 text-truncate pl-0 mb-3">
-                        <a class="font-weight-bold">This is title of the news</a>
-                    </div>
-                    <a><i class="fas fa-angle-double-right"></i></a>
-                </div>
+				</div>
+				<!-- Grid row -->
 
-            </div>
+			</div>
 
 
-        </div>
-        <!-- Grid column -->
-        <!-- Grid column -->
-        <div class="col-lg-4 col-md-6 mb-0">
+		</div>
+		<!-- Grid column -->
+		<!-- Grid column -->
+		<div class="col-lg-4 col-md-6 mb-0">
 
-            <!-- Featured news -->
-            <div class="single-news mb-3">
+			<!-- Featured news -->
+			<div class="single-news mb-3">
 
-                <!-- Image -->
-                <div class="view overlay rounded z-depth-2 mb-4 ">
-                    <img class="img-fluid" src="https://images.unsplash.com/photo-1544441893-675973e31985?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fGNsb3RoZXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Sample image">
-                    <a>
-                        <div class="mask rgba-white-slight"></div>
-                    </a>
-                </div>
+				<!-- Image -->
+				<div class="content view overlay rounded z-depth-2 mb-4 ">
+					<a>
+						<img class="img-fluid" src="https://images.unsplash.com/photo-1544441893-675973e31985?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fGNsb3RoZXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Sample image">
+						<div class="content-details fadeIn-bottom">
+							<h3 class="content-title">Geysers Valley Hotel</h3>
+							<p class="content-text"><i class="fa fa-map-marker"></i> Russia</p>
+					</a>
+				</div>
 
-                <!-- Grid row -->
-                <div class="row mb-3">
+			</div>
 
-                    <!-- Grid column -->
-                    <div class="col-12">
+			<!-- Grid row -->
+			<div class="row mb-3">
 
-                        <!-- Badge -->
-                        <a href="#!"><span class="badge success-color"><i class="fas fa-plane pr-2" aria-hidden="true"></i>Nature</span></a>
+				<!-- Grid column -->
+				<div class="col-12">
 
-                    </div>
-                    <!-- Grid column -->
+					<!-- Badge -->
+					<a href="#!"><span class="badge success-color"><i class="fas fa-plane pr-2" aria-hidden="true"></i>Nature</span></a>
 
-                </div>
+				</div>
+				<!-- Grid column -->
 
-                <!-- Small news -->
+			</div>
 
-            </div>
-            <!-- Grid column -->
+			<!-- Small news -->
 
-        </div>
-        <!-- Grid row -->
-    </div>
+		</div>
+		<!-- Grid column -->
+
+	</div>
+	<!-- Grid row -->
+	</div>
+
+</section>
+
+<section class="magazine-section mt-5">
+
+	<!-- Section heading -->
+	<h2 class="h1-responsive font-weight-bold text-center">New Arrivals</h2>
+	<hr class="mx-auto " />
+	<!-- Section description -->
+	<p class="text-center w-responsive mx-auto mb-5">
+		Duis aute irure dolor in reprehenderit in voluptate velit
+		esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+		qui officia deserunt mollit id laborum.
+	</p>
+
+	<!-- Grid row -->
+	<div class="row">
+
+		<!-- Grid column -->
+		<div class="col-lg-4 col-md-12 mb-lg-0 mb-5">
+
+			<!-- Featured news -->
+			<div class="single-news mb-3">
+
+				<!-- Image -->
+				<div class="content view overlay rounded z-depth-2 mb-4">
+					<a href="#">
+						<img class="img-fluid" src="https://images.unsplash.com/photo-1610401163517-a94e0a20844f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjcyfHxjbG90aGVzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Sample image">
+						<div class="content-details fadeIn-bottom">
+							<h3 class="content-title">Yellow and Blue Knitted Textile</h3>
+							<p class="content-text"><i class="fa fa-map-marker"></i> Russia</p>
+						</div>
+					</a>
+				</div>
+
+				<!-- Grid row -->
+				<div class="row mb-3">
+
+					<!-- Grid column -->
+					<div class="col-12">
+
+						<!-- Badge -->
+						<a href="#!"><span class="badge pink"><i class="fas fa-camera pr-2" aria-hidden="true"></i>Adventure</span></a>
+
+					</div>
+					<!-- Grid column -->
+
+				</div>
+				<!-- Grid row -->
+
+			</div>
+
+
+		</div>
+		<!-- Grid column -->
+		<!-- Grid column -->
+		<div class="col-lg-4 col-md-6 mb-md-0 mb-5">
+
+			<!-- Featured news -->
+			<div class="single-news mb-3">
+
+				<!-- Image -->
+				<div class="content view overlay rounded z-depth-2 mb-4">
+					<a href="#">
+						<img class="img-fluid" src="https://images.unsplash.com/photo-1602810319428-019690571b5b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTU1fHxjbG90aGVzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Sample image">
+						<div class="content-details fadeIn-bottom">
+							<h3 class="content-title">Geysers Valley Hotel</h3>
+							<p class="content-text"><i class="fa fa-map-marker"></i> Russia</p>
+						</div>
+					</a>
+				</div>
+
+				<!-- Grid row -->
+				<div class="row mb-3">
+
+					<!-- Grid column -->
+					<div class="col-12">
+
+						<!-- Badge -->
+						<a href="#!"><span class="badge deep-orange"><i class="fas fa-plane pr-2" aria-hidden="true"></i>Travel</span></a>
+
+					</div>
+					<!-- Grid column -->
+
+				</div>
+				<!-- Grid row -->
+
+			</div>
+
+
+		</div>
+		<!-- Grid column -->
+		<!-- Grid column -->
+		<div class="col-lg-4 col-md-6 mb-0">
+
+			<!-- Featured news -->
+			<div class="single-news mb-3">
+
+				<!-- Image -->
+				<div class="content view overlay rounded z-depth-2 mb-4 ">
+					<a href="#">
+						<img class="img-fluid" src="https://images.unsplash.com/photo-1608733177685-1882399af823?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTQxfHxjbG90aGVzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="black textile on grey textile">
+						<div class="content-details fadeIn-bottom">
+							<h3 class="content-title">Textile woolies</h3>
+							<p class="content-text"><i class="fa fa-map-marker"></i>Sweat Shirts</p>
+						</div>
+					</a>
+
+					<a>
+						<div class="mask rgba-white-slight"></div>
+					</a>
+				</div>
+
+				<!-- Grid row -->
+				<div class="row mb-3">
+
+					<!-- Grid column -->
+					<div class="col-12">
+
+						<!-- Badge -->
+						<a href="#!"><span class="badge success-color"><i class="fas fa-plane pr-2" aria-hidden="true"></i>Nature</span></a>
+
+					</div>
+					<!-- Grid column -->
+
+				</div>
+
+				<!-- Small news -->
+
+			</div>
+			<!-- Grid column -->
+
+		</div>
+		<!-- Grid row -->
+	</div>
 
 </section>
 <!-- Section: Magazine v.3 -->
-<section></section>
-
